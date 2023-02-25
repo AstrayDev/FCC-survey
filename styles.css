@@ -1,0 +1,95 @@
+.survey{
+    position: relative;
+    text-align: center;
+    background-color: rgba(18, 38, 63, 0.9);
+    color: rgb(229, 219, 212);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-size: contain;
+}
+h1, p{
+    position: relative;
+}
+p{
+    font-size: 18px;
+}
+.terms{
+    text-align: center;
+    background-color: rgba(18, 38, 63, 0.9);
+    color: rgb(168, 182, 194);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.survey::before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-image: url(Cheeses.jpg);
+    margin: -21px;
+    margin-right: -8px;
+}
+fieldset{
+    position: relative;
+    margin: 2em;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: rgb(165, 165, 165);
+}
+label{
+    position: relative;
+    display: block;
+    border: 30em;
+    margin: 2em;
+    padding-bottom: 0.5em;
+    font-size: 1.1em;
+}
+input[type="submit"]{
+    display: block;
+    width: 20%;
+    height: 2.3em;
+    background-color: rgb(55, 53, 53);
+    border-color: rgb(111, 110, 110);
+    position: relative;
+}
+input{
+    display: block;
+    margin: 1em auto;
+    width: 20%;
+    min-height: 1.3em;
+    height: 1.2em;
+    min-width: 250px;
+    background-color: rgb(55, 53, 53);
+    color: rgb(229, 219, 212);
+    border-color: rgb(111, 110, 110);
+    font-size: 17px;
+}
+input[type="checkbox"]{
+    display: inline;
+    align-self: center;
+}
+.inline{
+    width: unset;
+    vertical-align: middle;
+}
+a{
+    color: rgb(196, 216, 233);
+}
+textarea{
+    display: block;
+    align-self: center;
+    margin: 1em auto;
+    background-color: rgb(55, 53, 53);
+    color: rgb(229, 219, 212);
+    font-size: 15px;
+}
+select{
+    background-color: rgb(55, 53, 53);
+    color: rgb(229, 219, 212);
+    font-size: 15px;
+}
